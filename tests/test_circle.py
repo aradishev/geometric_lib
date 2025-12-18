@@ -16,5 +16,5 @@ class TestCircle(unittest.TestCase):
     def test_perimeter_negative(self):
         if(self.assertFalse(perimeter(-10))==False):
             self.fail("Периметр не должен быть отрицательным")
-    if __name__ == '__main__':
+    if  __name__ == '__main__':
         unittest.main()
