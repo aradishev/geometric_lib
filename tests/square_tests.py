@@ -1,5 +1,5 @@
 import unittest
-from geometric_lib.square import area, perimeter
+from square import area, perimeter
 
 class TestCircle(unittest.TestCase):
     def test_area_positive(self):

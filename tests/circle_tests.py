@@ -1,5 +1,5 @@
 import unittest
-from geometric_lib.circle import area, perimeter
+from circle import area, perimeter
 
 class TestCircle(unittest.TestCase):
     def test_area_positive(self):
